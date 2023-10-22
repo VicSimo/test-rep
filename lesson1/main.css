@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@600&display=swap');
+
+/* @font-face {
+    font-family: 'Oswald';
+    src: url(fonts/Oswald-SemiBold.ttf);
+} */
+body {
+    font-family: 'Autour One';
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #b3b3b3;
+}
+.logotype h1 {
+    text-transform: uppercase;
+}
+.main-header {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px 25px 15px;
+}
+.main-navigation li {
+    display: inline-block ;
+    padding-right: 20px;
+}
+.main-navigation li:last-child {
+    padding-right: 0;
+}
+/* .main-navigation li a {
+    font-family: 'Oswald', sans-serif;
+} */
+.main-navigation li a {
+    font-family: 'Montserrat', sans-serif;
+}
+/* навигация не выравнивается в линию - понять почему это происходит - не могу. шрифт для меню - тоже не применился. пробовала и импорт, и локальный, и разные шрифты. хелп)*/

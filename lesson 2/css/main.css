@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+ * {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+.main {
+    width: 1110px;
+    margin: 0 auto;
+}
+/*HEADER */
+.header {
+    display: block;
+    background-color: #f6f6f6;
+    text-align: center;
+    height: 900px;
+    background-color: #f6f6f6;
+}
+.nav-menu-list li {
+    display: inline-block;
+    margin-right: 60px;
+}
+.nav-menu-list li:nth-child(6) {
+    margin-right: 57px;
+}
+.nav-menu-list li:last-child(6) {
+    margin-right: 0px;
+}
+.nav-menu-list a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.nav-menu {
+    margin-top: 90px;
+}
+
+.logo {
+    padding-top: 220px;
+    padding-bottom: 230px;
+}
+.arrow  img {
+    margin-right: -66px;
+}
+/*HEADER */
+/* MOBILE APP */
+.main-mobile-app {
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-app-text span {
+    font-size: 40px;
+    font-weight: 300;
+}
+.mobile-app-text h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom:  117px;
+}
+.mobile-app-text p {
+    font-size: 32px;
+    font-weight: normal;
+}
+.mobile-app-img img {
+    padding-left: 163px;
+    }
+/* FLEX TEAM */
+.flex-team {
+    margin-top: 90px;
+    height: 700px;
+    background: url(../img/demo.png) repeat-y;
+    width: 100%;
+    background-size: 52% auto;
+}
+.flex-team-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-grey-team h3 {
+    font-size: 36px;
+    padding-bottom: 35px;
+    padding-top: 91px;
+}
+.flex-grey-team p {
+    font-size: 28px;
+}
+.flex-grey-team {
+    text-align: left;
+    width: 576px;
+}
+.flex-white-team {
+    text-align: right;
+}
+.flex-white-team span {
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 115px;
+}
+.flex-white-team h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom:  117px;
+    padding-left: 30px;
+}

@@ -1,0 +1,38 @@
+.header__top__links {
+    float: right;
+}
+
+.header__top__links > button {
+margin-right: 50px;
+}
+
+.header__top__links > a:last-child {
+    margin-left: 50px;
+}
+
+
+.header__top__links > a:nth-last-child(2) {
+    margin: 10px;
+}
+.header__bottom {
+    display: inline-block;
+    width: 100%;
+}
+.header__bottom__logo {
+    display: inline-block;
+}
+
+.header__bottom__nav {
+    float: right;
+}
+.nav__menu {
+float: right;
+}
+
+.nav__top > a {
+    margin-right: 20px;
+}
+
+.nav__bottom > a {
+    margin-right: 20px;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid #000;
+}
+.item {
+    font-size: 30 ;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+}
+
+.item_1 {
+    background-color: blue;
+    align-self: center;
+}
+.item_2 {
+    background-color: blueviolet;
+    align-self: flex-start;
+}
+.item_3 {
+    background-color: brown;
+    align-self: flex-end;
+}
+.container {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: center; */
+    height: 100vh;
+    align-items: center ;
+}

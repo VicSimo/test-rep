@@ -1,0 +1,110 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: #050729;
+    color: #FFF;
+    display: flex;
+}
+
+.sidebar {
+    width: 20%; 
+    background-color: #0B0B0D;
+    opacity: 0.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.logotype a  {
+    font-family: "Oswald", sans-serif;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 17px;
+}
+.logotype a span {
+    color: #A276FF;
+}
+.logotype a  :hover {
+    color: #F2C94C;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    margin: 5px 0;
+}
+.menu a {
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color: #F2C94C
+;
+}
+.footer {
+    width: 384px;
+    background-color: #0B0B0D;
+    opacity: 0.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.container {
+    width: 1788px; 
+    padding: 20px;
+}
+.social-icons {
+    background-image: url(/control/img/Social\ V.svg);
+    width: 232px;
+    height: 73px;
+}
+.content {
+    padding: 20px;
+}
+.headline {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.paragraph {
+    margin-bottom: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #A276FF;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.image {
+    width: calc(25% - 10px);
+}
+.news {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.news-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
