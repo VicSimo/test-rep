@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>burger</title>
+  <style>
+    /* Стили для бургер-меню */
+    .burger-menu {
+      display: relative;
+    }
+
+    .burger {
+      width: 30px;
+      height: 25px;
+      cursor: pointer;
+    }
+
+    .burger span {
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: #000;
+      transition: transform 0.3s ease;
+    }
+
+
+    .burger span:nth-child(2),
+    .burger span:nth-child(3) {
+      margin-top: 5px;
+    }
+
+    .burger span:nth-child(4) {
+      margin-top: 5px;
+    }
+
+    /* Стили для открытого меню */
+    .menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #f7f7f7;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu a {
+      display: block;
+      padding: 5px 0;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .menu .active_link {
+      color: red;  
+    }
+
+  </style>
+</head>
+<body>
+  <div class="burger-menu">
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu">
+      <a href="#" class="active_link">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Услуги</a>
+      <a href="#">Контакты</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

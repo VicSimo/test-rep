@@ -7,25 +7,31 @@ body {
 }
 
 .sidebar {
-    width: 20%; 
-    background-color: #0B0B0D;
+    width: 384px;
+    height: 1296px;
+    flex-shrink: 0;
     opacity: 0.5;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    background: var(--vdarkblue, #0B0B0D);
+    backdrop-filter: blur(20px);
 }
 .logotype a  {
-    font-family: "Oswald", sans-serif;
     color: #FFF;
-    font-weight: bold;
-    font-size: 17px;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .logotype a span {
     color: #A276FF;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.35px;
 }
-.logotype a  :hover {
+.logotype a :hover {
     color: #F2C94C;
 }
 .header {
